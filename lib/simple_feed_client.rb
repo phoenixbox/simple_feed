@@ -1,4 +1,4 @@
-class SimpleFeedClient
+\class SimpleFeedClient
   def initialize(username, password)
     @username, @password = username, password
   end

@@ -1,6 +1,6 @@
 class SimpleFeedController < ApplicationController    
   def index
-    client = SimpleFeedClient.new('josh', 'cheese')
-    @feed_items = client.get_feed 'josh'    
+    client = SimpleFeedClient.new('shane', 'cheese')
+    @feed_items = client.get_feed 'shane'    
   end
 end
